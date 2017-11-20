@@ -1,0 +1,5 @@
+((2.MED2,2.MED1):0.90,(2.ANT1a,2.ANT1b):1.00);
+*2.ANT1a /Users/bjea/PopperCI_Toil/Cactus_Toil/pestis/GCF_000013805.1_ASM1380v1_genomic.fna
+2.ANT1b /Users/bjea/PopperCI_Toil/Cactus_Toil/pestis/GCF_000182485.1_ASM18248v1_genomic.fna
+*2.MED2 /Users/bjea/PopperCI_Toil/Cactus_Toil/pestis/GCF_000006645.1_ASM664v1_genomic.fna
+2.MED1 /Users/bjea/PopperCI_Toil/Cactus_Toil/pestis/GCF_000169655.1_ASM16965v1_genomic.fna

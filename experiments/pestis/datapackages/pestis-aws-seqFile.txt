@@ -1,0 +1,22 @@
+# Yersinia pestis
+# https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2999892
+# Newick from https://macsphere.mcmaster.ca/bitstream/11375/9810/1/fulltext.pdf
+((0.PE2,(((0.ANT2,((2.MED2,2.MED1):0.90,(2.ANT1a,2.ANT1b):1.00):0.59):0.62,((1.IN3,((1.ORI1a,1.ORI1b):0.55,((1.ORI3b,1.ORI3a):0.95,1.ORI2):0.91):0.88):0.61,(1.ANT1b,1.ANT1a):1.00):0.74):0.99,(0.PE3,0.PE4):0.93):0.56):1.00,(Yps,Yen):0.58);
+*Yen /Users/ejacox/data/pestis/GCF_000009345.1_ASM934v1_genomic.fna
+*Yps /Users/ejacox/data/pestis/GCF_000047365.1_ASM4736v1_genomic.fna
+*0.PE2 /Users/ejacox/data/pestis/GCF_000016445.1_ASM1644v1_genomic.fna
+*0.PE3 /Users/ejacox/data/pestis/GCF_000018805.1_ASM1880v1_genomic.fna
+*0.PE4 /Users/ejacox/data/pestis/GCF_000007885.1_ASM788v1_genomic.fna
+0.ANT2 /Users/ejacox/data/pestis/GCF_000169675.1_ASM16967v1_genomic.fna
+*2.ANT1a /Users/ejacox/data/pestis/GCF_000013805.1_ASM1380v1_genomic.fna
+2.ANT1b /Users/ejacox/data/pestis/GCF_000182485.1_ASM18248v1_genomic.fna
+*2.MED2 /Users/ejacox/data/pestis/GCF_000006645.1_ASM664v1_genomic.fna
+2.MED1 /Users/ejacox/data/pestis/GCF_000169655.1_ASM16965v1_genomic.fna
+*1.ANT1a /Users/ejacox/data/pestis/GCF_000013825.1_ASM1382v1_genomic.fna
+1.ANT1b /Users/ejacox/data/pestis/GCF_000169615.1_ASM16961v1_genomic.fna
+1.IN3 /Users/ejacox/data/pestis/GCF_000169695.1_ASM16969v1_genomic.fna
+1.ORI1a /Users/ejacox/data/pestis/GCF_000181455.2_ASM18145v2_genomic.fna
+*1.ORI1b /Users/ejacox/data/pestis/GCF_000009065.1_ASM906v1_genomic.fna
+1.ORI2 /Users/ejacox/data/pestis/GCF_000170275.1_ASM17027v1_genomic.fna
+1.ORI3a /Users/ejacox/data/pestis/GCA_000168235.2_ASM16823v2_genomic.fna
+1.ORI3b /Users/ejacox/data/pestis/GCF_000169635.1_ASM16963v1_genomic.fna
