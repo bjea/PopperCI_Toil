@@ -2,7 +2,7 @@
 set -e TOIL_AWS_ZONE=us-west-2c
 
 blockTrim=(1 3)
-minNodes=(2 4)
+minNodes=(0 2)
 
 for i in "${blockTrim[@]}"
 do
