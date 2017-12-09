@@ -24,10 +24,10 @@ do
     do
         toil clean aws:us-west-2:bettiescactus-pestis
 
-        cactus --provisioner aws --nodeTypes c3.2xlarge --minNodes=$j --maxNodes 5 \
+        cactus --provisioner aws --nodeTypes c4.4xlarge --minNodes=$j --maxNodes 5 \
         --retry 10 --batchSystem mesos --disableCaching --logDebug --logFile /logFile_pestis_$i-$j \
         --configFile /tmp/blockTrim$i.xml aws:us-west-2:bettiescactus-pestis /tmp/pestis-short-aws-seqFile.txt \
-        /tmp/pestis_output_new_$i-$j.hal
+        /tmp/pestis_output_$i-$j.hal
 
         rm -r /tmp/ssh*
 
