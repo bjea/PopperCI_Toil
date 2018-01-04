@@ -15,17 +15,4 @@ do
     done;
 done;
 
-
-for i in "${blockTrim[@]}"
-do
-    for j in "${minNodes[@]}"
-    do
-        docker run --rm -ti -v `pwd`:/root --entrypoint=h5diff hdfgroup/hdf5-json \
-        /root/experiments/Cactus_Y.pestis_short/pestis_output$i.hal \
-        /root/experiments/Cactus_Y.pestis_short/pestis_output_$i-$j.hal
-
-    done;
-done;
-
-
 exit 0
